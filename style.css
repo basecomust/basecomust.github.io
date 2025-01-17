@@ -1,4 +1,5 @@
 body {
-	text-transform: uppercase;
+	color: darkred;
+	-webkit-text-stroke: 1px yellow;
 	background-image: url("sovietuniverse.jpg");
 }
