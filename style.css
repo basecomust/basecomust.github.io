@@ -8,5 +8,5 @@ body {
 	-webkit-text-stroke: 0.2px yellow;
 	font-family: 'Konstruktor';
 	background-image: url("sovietuniverse.jpg");
-	background-repeat: no-repeat;
+	background-size: cover;
 }
