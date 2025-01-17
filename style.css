@@ -1,5 +1,5 @@
 body {
 	color: darkred;
-	-webkit-text-stroke: 1px yellow;
+	-webkit-text-stroke: 3px yellow;
 	background-image: url("sovietuniverse.jpg");
 }
