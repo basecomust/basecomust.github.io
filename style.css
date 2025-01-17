@@ -6,6 +6,7 @@
 body {
 	color: darkred;
 	-webkit-text-stroke: 0.2px yellow;
+	text-align: center;
 	font-family: 'Konstruktor';
 	background-image: url("sovietuniverse.jpg");
 	background-size: cover;
