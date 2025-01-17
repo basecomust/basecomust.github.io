@@ -1,5 +1,11 @@
+@font-face {
+	font-family: 'Konstruktor';
+	src: url("KonstruktorRegular.ttf") format("truetype");
+}
+
 body {
 	color: darkred;
 	-webkit-text-stroke: 0.2px yellow;
+	font-family: 'Konstruktor';
 	background-image: url("sovietuniverse.jpg");
 }
