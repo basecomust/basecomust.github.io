@@ -22,6 +22,6 @@ function jugoslavify() {
 */
 
 function playpropaganda() {
-	var song = new Audio("red_sun_in_the_sky.mp3");
+	var song = new Audio('red_sun_in_the_sky.mp3');
 	song.play();
 }
