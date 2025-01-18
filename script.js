@@ -12,9 +12,11 @@ function ñify() {
 	document.getElementById("conclusion").innerHTML = "¡Disfruta tu estancia, camarada!";
 }
 
+/*
 function jugoslavify() {
 	document.getElementById("introduction").innerHTML = "Поздрав, друже!";
 	document.getElementById("theproblem").innerHTML = "Ова веб страница је резервисана за међугалактичко комунистичко царство <b>БАЗНИ КОМУСТ</b>.";
 	document.getElementById("thesis").innerHTML = "Стационирани сте на станици <b>ПОЛУС</b>.";
 	document.getElementById("conclusion").innerHTML = "Уживајте у боравку, друже!";
 }
+*/
