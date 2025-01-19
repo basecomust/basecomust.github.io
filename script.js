@@ -22,7 +22,7 @@ function jugoslavify() {
 */
 
 function playpropaganda() {
-	const sonks = ['red_sun_in_the_sky.mp3', 'der_heimliche_aufmarsch.mp3'];
+	const sonks = ['red_sun_in_the_sky.mp3', 'der_heimliche_aufmarsch.mp3', 'bosanska_artiljerija.mp3'];
 	var song = new Audio(sonks[Math.floor(Math.random() * sonks.length)]);
 	song.play();
 }
