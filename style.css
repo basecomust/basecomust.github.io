@@ -3,6 +3,11 @@
 	src: url("KonstruktorRegular.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: 'Comic Sans MS';
+	src: url("Comic Sans MS.ttf") format("truetype");
+}
+
 body {
 	color: darkred;
 	-webkit-text-stroke: 0.2px yellow;
@@ -14,6 +19,11 @@ body {
 }
 
 button {
+	height: 4vh;
 	background-color: red;
 	font-family: sans-serif; /* Placeholder */
+}
+
+.comicsans {
+	font-family: "Comic Sans MS";
 }

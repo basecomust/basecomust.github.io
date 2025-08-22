@@ -3,6 +3,7 @@ function anglify() {
 	document.getElementById("theproblem").innerHTML = "This website is reserved for the intergalactic communist empire <b>BASE COMUST</b>.";
 	document.getElementById("thesis").innerHTML = "You are stationed at the station <b>POLUS</b>.";
 	document.getElementById("conclusion").innerHTML = "Enjoy your stay, comrade!";
+	document.getElementById("greatness").innerHTML = "-=[CLICK FOR GREATNESS]=-";
 }
 
 function ñify() {
@@ -10,6 +11,7 @@ function ñify() {
 	document.getElementById("theproblem").innerHTML = "Este sitio web está reservado para el imperio comunista intergaláctico <b>BASE COMUST</b>.";
 	document.getElementById("thesis").innerHTML = "Estás estacionado en la estación <b>POLUS</b>.";
 	document.getElementById("conclusion").innerHTML = "¡Disfruta tu estancia, camarada!";
+	document.getElementById("greatness").innerHTML = "-=[CLICAME PARA ALGO DIVERTIDO]=-";
 }
 
 /*
@@ -22,12 +24,22 @@ function jugoslavify() {
 */
 
 let song;
-const sonks = ['red_sun_in_the_sky.mp3', 'der_heimliche_aufmarsch.mp3', 'bosanska_artiljerija.mp3'];
+const sonks = ['red_sun_in_the_sky.mp3', 'der_heimliche_aufmarsch.mp3', 'bosanska_artiljerija.mp3',
+				'IFA Wartburg - Freie Deutsche Jugend (FDJ).mp3',
+				'God, Syria and Bashar!.mp3', 'Potato Pride - North Korean Pop Song 4.mp3'];
 
 function playpropaganda() {
 	if (song) {
 		song.pause()
 	}
-	song = new Audio(sonks[Math.floor(Math.random() * sonks.length)]);
+	song = new Audio(`musik/${sonks[Math.floor(Math.random() * sonks.length)]}`);
 	song.play();
+}
+
+function btndown(btn) {
+	btn.style = "background-color: darkred; color: darkyellow";
+}
+
+function btnup(btn) {
+	btn.style = "background-color: red; color: yellow";
 }
