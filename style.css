@@ -26,10 +26,12 @@ button {
 
 .commiehyperlink {
 	color: red;
+	text-decoration-color: red;
 }
 
 .commiehyperlink:hover {
 	color: darkred;
+	text-decoration-color: darkred;
 }
 
 .comicsans {
@@ -43,8 +45,10 @@ button {
 
 #katsite {
 	color: orange;
+	text-decoration-color: orange;
 }
 
 #katsite:hover {
 	color: darkorange;
+	text-decoration-color: darkorange;
 }
