@@ -41,6 +41,10 @@ button {
 #sitenavbar {
 	background-color: rgba(0, 0, 0, 0.5);
 	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid gold;
 }
 
 #katsite {
