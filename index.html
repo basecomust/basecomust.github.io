@@ -9,18 +9,25 @@
 </head>
 <body>
 	<nav>
-		<a onclick="anglify()">🇨🇦</a>
-		<a onclick="ñify()">🇲🇽</a>
-		<!--<a onclick="jugoslavify()">🇷🇸</a>-->
+		<span id="sitenavbar">
+			<a href="./index.html" class="commiehyperlink">HOME</a>
+			<span> | </span>
+			<a href="./other/index.html" class="commiehyperlink">OTHER</a>
+		</span>
+		<span style="float: center; margin-right: 34vh">
+			<a onclick="anglify()">🇨🇦</a>
+			<a onclick="ñify()">🇲🇽</a>
+			<!--<a onclick="jugoslavify()">🇷🇸</a>-->
+		</span>
 	</nav>
-	<p id="introduction">Greetings, comrade!</p>
+	<p id="introduction" style="color: red">Greetings, comrade!</p>
 	<p id="theproblem">This website is reserved for the intergalactic communist empire <b>BASE COMUST</b>.</p>
 	<p id="thesis">You are stationed at the station <b>POLUS</b>.</p>
 	<p id="conclusion">Enjoy your stay, comrade!</p>
-	<button onclick="playpropaganda()">-=[CLICK FOR GREATNESS]=-</button>
+	<button onclick="playpropaganda()" id="greatness">-=[CLICK FOR GREATNESS]=-</button>
 	<br><br>
-	<div style="color: red">Also check out!</div>
-	<a href="https://vafelkis.github.io" style="color: orange" class="comicsans">katsite!</a>
+	<div style="color: red" id="shoutout">Also check out!</div>
+	<a href="https://vafelkis.github.io" class="comicsans" id="katsite">katsite!</a>
 	<script src="script.js"></script>
 </body>
 </html>

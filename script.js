@@ -4,6 +4,7 @@ function anglify() {
 	document.getElementById("thesis").innerHTML = "You are stationed at the station <b>POLUS</b>.";
 	document.getElementById("conclusion").innerHTML = "Enjoy your stay, comrade!";
 	document.getElementById("greatness").innerHTML = "-=[CLICK FOR GREATNESS]=-";
+	document.getElementById("shoutout").innerHTML = "Also check out!";
 }
 
 function ñify() {
@@ -12,6 +13,7 @@ function ñify() {
 	document.getElementById("thesis").innerHTML = "Estás estacionado en la estación <b>POLUS</b>.";
 	document.getElementById("conclusion").innerHTML = "¡Disfruta tu estancia, camarada!";
 	document.getElementById("greatness").innerHTML = "-=[CLICAME PARA ALGO DIVERTIDO]=-";
+	document.getElementById("shoutout").innerHTML = "¡Tambien mira estos!";
 }
 
 /*
