@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Konstruktor';
-	src: url("KonstruktorRegular.ttf") format("truetype");
+	src: url("fonts/KonstruktorRegular.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: 'Comic Sans MS';
-	src: url("Comic Sans MS.ttf") format("truetype");
+	src: url("fonts/Comic Sans MS.ttf") format("truetype");
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 	text-align: center;
 	font-size: 300%;
 	font-family: 'Konstruktor';
-	background-image: url("sovietuniverse.jpg");
+	background-image: url("images/sovietuniverse.jpg");
 	background-size: cover;
 }
 
@@ -22,6 +22,10 @@ button {
 	height: 38px;
 	background-color: red;
 	font-family: sans-serif; /* Placeholder */
+}
+
+hr {
+	color: darkred;
 }
 
 .commiehyperlink {

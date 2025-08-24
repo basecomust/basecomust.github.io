@@ -27,8 +27,8 @@ function jugoslavify() {
 
 let song;
 const sonks = ['red_sun_in_the_sky.mp3', 'der_heimliche_aufmarsch.mp3', 'bosanska_artiljerija.mp3',
-				'IFA Wartburg - Freie Deutsche Jugend (FDJ).mp3',
-				'God, Syria and Bashar!.mp3', 'Potato Pride - North Korean Pop Song 4.mp3'];
+				'freie_deutsche_jugend.mp3', 'god_syria_and_bashar.mp3', 'potato_pride.mp3',
+				'my_dad_is_a_war_criminal.mp3'];
 
 function playpropaganda() {
 	if (song) {

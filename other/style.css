@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Konstruktor';
+	src: url("../fonts/KonstruktorRegular.ttf") format("truetype");
+}
+
+body {
+	color: darkred;
+	-webkit-text-stroke: 0.2px yellow;
+	text-align: center;
+	font-size: 300%;
+	font-family: 'Konstruktor';
+	background-image: url("../images/rafotr.jpg");
+	background-size: cover;
+}
+
+.commiehyperlink {
+	color: red;
+	text-decoration-color: red;
+}
+
+.commiehyperlink:hover {
+	color: darkred;
+	text-decoration-color: darkred;
+}
+
+#sitenavbar {
+	background-color: rgba(0, 0, 0, 0.3);
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid gold;
+}
