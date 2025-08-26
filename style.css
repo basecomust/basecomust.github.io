@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: 'Nikkyou Sans';
-	src: url("../fonts/NikkyouSans.ttf") format("truetype");
+	src: url("fonts/NikkyouSans.ttf") format("truetype");
 }
 
 body {
