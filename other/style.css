@@ -3,6 +3,11 @@
 	src: url("../fonts/KonstruktorRegular.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: 'Nikkyou Sans';
+	src: url("../fonts/NikkyouSans.ttf") format("truetype");
+}
+
 body {
 	color: darkred;
 	-webkit-text-stroke: 0.2px yellow;
@@ -21,6 +26,10 @@ body {
 .commiehyperlink:hover {
 	color: darkred;
 	text-decoration-color: darkred;
+}
+
+.nikkyousans {
+	font-family: 'Nikkyou Sans';
 }
 
 #sitenavbar {
