@@ -1,12 +1,4 @@
-@font-face {
-	font-family: 'Konstruktor';
-	src: url("../fonts/KonstruktorRegular.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: 'Nikkyou Sans';
-	src: url("../fonts/NikkyouSans.ttf") format("truetype");
-}
+@import url("../global.css")
 
 body {
 	color: darkred;
@@ -16,27 +8,4 @@ body {
 	font-family: 'Konstruktor';
 	background-image: url("../images/rafotr.jpg");
 	background-size: cover;
-}
-
-.commiehyperlink {
-	color: red;
-	text-decoration-color: red;
-}
-
-.commiehyperlink:hover {
-	color: darkred;
-	text-decoration-color: darkred;
-}
-
-.nikkyousans {
-	font-family: 'Nikkyou Sans';
-}
-
-#sitenavbar {
-	background-color: rgba(0, 0, 0, 0.3);
-	float: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 2px solid gold;
 }

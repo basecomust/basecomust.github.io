@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Konstruktor';
+	src: url("fonts/KonstruktorRegular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Comic Sans MS';
+	src: url("fonts/Comic Sans MS.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Nikkyou Sans';
+	src: url("fonts/NikkyouSans.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Communist Bold';
+	src: url("fonts/comm_sb.ttf") format("truetype");
+}
+
+.commiehyperlink {
+	color: red;
+	text-decoration-color: red;
+}
+
+.commiehyperlink:hover {
+	color: darkred;
+	text-decoration-color: darkred;
+}
+
+.flagemoji {
+	border-radius: 10% 10% 10% 10%;
+}
+
+.comicsans {
+	font-family: 'Comic Sans MS';
+}
+
+.nikkyousans {
+	font-family: 'Nikkyou Sans';
+}
+
+#sitenavbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid gold;
+}
