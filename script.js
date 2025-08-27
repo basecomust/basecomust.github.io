@@ -5,6 +5,7 @@ function anglify() {
 	document.getElementById("conclusion").innerHTML = "Enjoy your stay, comrade!";
 	document.getElementById("greatness").innerHTML = "-=[CLICK FOR GREATNESS]=-";
 	document.getElementById("shoutout").innerHTML = "Also check out!";
+	document.getElementById("semilegalnotice").innerHTML = "The contents of this site are purely fictional and satirical and do not have any affiliation with any real communist or socialist movements. Everything should be taken half-seriously and not viewed from an actual communist perspective. This website\'s owner strongly opposes communism, socialism, Serbian nationalism and recognizes the independence of the Republic of Lithuania. This website does not in any way endorse the communist ideology and due to its content it should not be viewed by anyone.";
 }
 
 function ñify() {
@@ -14,6 +15,7 @@ function ñify() {
 	document.getElementById("conclusion").innerHTML = "¡Disfruta tu estancia, camarada!";
 	document.getElementById("greatness").innerHTML = "-=[CLICAME PARA ALGO DIVERTIDO]=-";
 	document.getElementById("shoutout").innerHTML = "¡Tambien mira estos!";
+	document.getElementById("semilegalnotice").innerHTML = "El contenido de este sitio es solamente ficticio y satírico y no tiene ninguna afiliación con ningúnes movimientos comunistas o socialistas real. Todo debe tomarse en media en serio y no desde una perspectiva comunista actual. El creador de este sitio web se opone firmemente al comunismo, socialismo, nacionalismo serbio y reconoce la independencia de la República de Lituania. Este sitio web no endosa de ninguna manera la ideología comunista y debido a su contenido no debe ser visto por nadie.";
 }
 
 /*
