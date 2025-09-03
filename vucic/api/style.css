@@ -1,0 +1,10 @@
+body {
+	color: darkred;
+	-webkit-text-stroke: 0.2px yellow;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+	font-size: 300%;
+	font-family: 'Konstruktor';
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../images/construction.jpg");
+	background-size: cover;
+}

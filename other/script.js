@@ -1,10 +1,11 @@
 function get_time_since(date_text) {
 	const now = new Date();
 	const date = new Date(date_text);
+	console.log(`now: ${now};; date: ${date}`);
 
-	let y = now.getFullYear() - date.getFullYear();
-	let m = now.getMonth() - date.getMonth();
-	let d = now.getDate() - date.getDate();
+	let y = now.getFullYear() - date.getUTCFullYear();
+	let m = now.getMonth() - date.getUTCMonth();
+	let d = now.getDate() - date.getUTCDate();
 
 	if (d < 0) {
 		m--;
@@ -30,6 +31,7 @@ window.onload = () => {
 	display_time(new Date("2022-05-30"), "bcdate");
 	display_time(new Date("1991-12-25"), "ussrdate");
 	display_time(new Date("1990-03-11"), "lithdate");
+	document.getElementById("es").style.filter = "grayscale(50%)";
 }
 
 function anglify() {
@@ -44,6 +46,8 @@ function anglify() {
 	document.getElementById("fuckasswebsitecredit").innerHTML = "wallpaperflare.com, a shitty sketchy ad-infested website that I downloaded some iconic images from, most notably the website backgrounds";
 	document.getElementById("vuciccredit").innerHTML = "Aleksandar Vucic, one extremely repulsive motherfucker that apparently also runs Comust";
 	document.getElementById("semilegalnotice").innerHTML = "The contents of this site are purely fictional and satirical and do not have any affiliation with any real communist or socialist movements. Everything should be taken half-seriously and not viewed from an actual communist perspective. This website\'s owner strongly opposes communism, socialism, Serbian nationalism and recognizes the independence of the Republic of Lithuania. This website does not in any way endorse the communist ideology and due to its content it should not be viewed by anyone.";
+	document.getElementById("en").style.filter = "none";
+	document.getElementById("es").style.filter = "grayscale(50%)";
 }
 
 function ñify() {
@@ -58,4 +62,6 @@ function ñify() {
 	document.getElementById("fuckasswebsitecredit").innerHTML = "wallpaperflare.com, un sitio suspechoso de mierda que está infestadode anuncios de donde descargué algunas imágenes icónicas, lo más notable son los fondos";
 	document.getElementById("vuciccredit").innerHTML = "Aleksandar Vucic, un bastardo repulsivo extremadamente que aparentemente también goberna la Comust";
 	document.getElementById("semilegalnotice").innerHTML = "El contenido de este sitio es solamente ficticio y satírico y no tiene ninguna afiliación con ningúnes movimientos comunistas o socialistas real. Todo debe tomarse en media en serio y no desde una perspectiva comunista actual. El creador de este sitio web se opone firmemente al comunismo, socialismo, nacionalismo serbio y reconoce la independencia de la República de Lituania. Este sitio web no endosa de ninguna manera la ideología comunista y debido a su contenido no debe ser visto por nadie.";
+	document.getElementById("en").style.filter = "grayscale(50%)";
+	document.getElementById("es").style.filter = "none";
 }

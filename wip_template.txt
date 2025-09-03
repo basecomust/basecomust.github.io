@@ -1,0 +1,49 @@
+<!-- Add this to the style.css in the file's directory:
+body {
+	color: darkred;
+	-webkit-text-stroke: 0.2px yellow;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+	font-size: 300%;
+	font-family: 'Konstruktor';
+	/* Of course replace the ../ in the following line with the actual path to the image */
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/construction.jpg");
+	background-size: cover;
+}
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./style.css">
+	<title>BASE COMUST / [INSERT NAME]</title>
+</head>
+<body>
+	<nav>
+		<span id="sitenavbar" style="padding-right: 2px">
+			<img src="../images/Commnuist.png" width=55px height=55px style="border-radius: 50% 50% 50% 50%; margin-left: 2px">
+			<!-- Insert the navbar here -->
+			<span> | </span>
+			<img src="../images/cpc.jpg" onclick="anglify()" height=45px width=55px class="flagemoji" style="cursor: pointer">
+			<img src="../images/EZLN.jpg" onclick="ñify()" height=45px width=55px class="flagemoji" style="cursor: pointer; margin-left: 4px">
+			<!--<a onclick="jugoslavify()">🇷🇸</a>-->
+		</span>
+		<br>
+	</nav>
+	<p>UNDER CONSTRUCTION...</p>
+	<p>Work still in progress. Check back later!</p>
+	<br><br>
+	<h6 id="semilegalnotice" class="nikkyousans">The contents of this site are purely fictional and satirical and do not have
+	any affiliation with any real communist or socialist movements. Everything should be taken
+	half-seriously and not viewed from an actual communist perspective. This website's
+	owner strongly opposes communism, socialism, Serbian nationalism and recognizes
+	the independence of the Republic of Lithuania. This website does not in any way
+	endorse the communist ideology and due to its content it should not be viewed
+	by anyone.</h6>
+	<script src="script.js"></script>
+</body>
+</html>

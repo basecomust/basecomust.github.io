@@ -40,6 +40,10 @@
 	font-family: 'Nikkyou Sans';
 }
 
+.noncenter {
+	text-align: start;
+}
+
 #sitenavbar {
 	background-color: rgba(0, 0, 0, 0.5);
 	float: left;
