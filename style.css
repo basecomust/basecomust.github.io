@@ -9,23 +9,19 @@ body {
 	background-size: cover;
 }
 
+/*
 button {
 	height: 38px;
-	background-color: red;
-	font-family: 'Nikkyou Sans'; /* Placeholder */
+	background-color: darkred;
+	color: yellow;
+	font-family: 'Nikkyou Sans'; /* Placeholder *//*
 }
+
+button:focus {
+	background-color: red;
+}
+*/
 
 hr {
 	color: darkred;
-}
-
-#katsite {
-	color: orange;
-	text-shadow: 0px 0px 5px red, 0px 0px 10px red;
-	text-decoration-color: orange;
-}
-
-#katsite:hover {
-	color: darkorange;
-	text-decoration-color: darkorange;
 }

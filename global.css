@@ -18,6 +18,22 @@
 	src: url("fonts/comm_sb.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: 'Jetbrains Mono';
+	src: url("fonts/JetBrainsMonoNL-Regular.ttf") format("truetype");
+}
+
+button {
+	height: 38px;
+	background-color: darkred;
+	color: yellow;
+	font-family: 'Nikkyou Sans'; /* Placeholder */
+}
+
+button:focus {
+	background-color: red;
+}
+
 .commiehyperlink {
 	color: red;
 	text-decoration-color: red;
@@ -42,6 +58,21 @@
 
 .noncenter {
 	text-align: start;
+}
+
+.trumpsweewee {
+	font-size: 50%;
+}
+
+.katsitelink {
+	color: orange;
+	text-shadow: 0px 0px 5px red, 0px 0px 10px red;
+	text-decoration-color: orange;
+}
+
+.katsitelink:hover {
+	color: darkorange;
+	text-decoration-color: darkorange;
 }
 
 #sitenavbar {

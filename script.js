@@ -22,6 +22,8 @@ function ñify() {
 	document.getElementById("es").style.filter = "none";
 }
 
+// Likely will never be finished unless I somehow get my shit together
+
 /*
 function jugoslavify() {
 	document.getElementById("introduction").innerHTML = "Поздрав, друже!";
@@ -42,16 +44,6 @@ function playpropaganda() {
 	}
 	song = new Audio(`musik/${sonks[Math.floor(Math.random() * sonks.length)]}`);
 	song.play();
-}
-
-function btndown(btn) {
-	btn.style.background_color = "darkred";
-	btn.style.color = "darkyellow";
-}
-
-function btnup(btn) {
-	btn.style.background_color = "red";
-	btn.style.color = "yellow";
 }
 
 window.onload = () => {
