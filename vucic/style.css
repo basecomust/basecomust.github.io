@@ -6,8 +6,6 @@ body {
 	font-size: 300%;
 	font-family: 'Konstruktor';
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/elpueblodeserbia.jpg");
-	/*background-image: url("../images/construction.jpg");*/
-	/*background-size: cover;*/
 	background-size: 100%;
 	background-attachment: fixed;
 }
